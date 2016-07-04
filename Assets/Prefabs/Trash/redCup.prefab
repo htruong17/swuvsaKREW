@@ -10,10 +10,10 @@ GameObject:
   - 4: {fileID: 470502}
   - 212: {fileID: 21209688}
   - 114: {fileID: 11497142}
-  - 50: {fileID: 5086004}
-  - 58: {fileID: 5863250}
   - 114: {fileID: 11422586}
   - 114: {fileID: 11433426}
+  - 50: {fileID: 5099000}
+  - 58: {fileID: 5889118}
   m_Layer: 0
   m_Name: redCup
   m_TagString: Trash
@@ -64,7 +64,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 470502}
   m_RootOrder: 0
---- !u!50 &5086004
+--- !u!50 &5099000
 Rigidbody2D:
   serializedVersion: 2
   m_ObjectHideFlags: 1
@@ -95,18 +95,18 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 1.5
---- !u!58 &5863250
+--- !u!58 &5889118
 CircleCollider2D:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 153908}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
-  m_Offset: {x: -0.00000011920929, y: 0}
+  m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 1.5
 --- !u!114 &11422586

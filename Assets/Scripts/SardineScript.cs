@@ -9,7 +9,7 @@ public class SardineScript : MonoBehaviour {
     private Vector3[] directions =
         {
             new Vector3((-1*Mathf.Sqrt(3)), 1, 0),
-            new Vector3((1*Mathf.Sqrt(3)), -1, 0),
+            new Vector3((1*Mathf.Sqrt(3)), 1, 0),
             new Vector3(0, -1, 0),
      
         };
@@ -36,8 +36,8 @@ public class SardineScript : MonoBehaviour {
             var minis = obj.transform;
             minis.parent = transform.parent;
             //minis.name = "Sardine";
-            minis.position = transform.TransformPoint(directions[i]/4);
-            //minis.GetComponent<Rigidbody2D>().AddForce(Power * Random.insideUnitSphere, ForceMode2D.Impulse);
+            minis.position = transform.TransformPoint(directions[i]);
+            minis.GetComponent<Rigidbody2D>().AddForce(Power * Random.insideUnitSphere, ForceMode2D.Impulse);
            
         }
         Destroy(gameObject);
