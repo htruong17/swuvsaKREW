@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "krewGame.CSharp.Plugins", "krewGame.CSharp.Plugins.csproj", "{D61CD0EA-1DDE-E407-E52A-2EA7267A2235}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "krewGame.CSharp", "krewGame.CSharp.csproj", "{1C069A8E-DD8D-5E11-CE3D-AC960F4F5A74}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "krewGame.CSharp.Editor.Plugins", "krewGame.CSharp.Editor.Plugins.csproj", "{C41B6CA2-FDDA-E52B-C792-990FBEC4E083}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "krewGame.CSharp.Editor", "krewGame.CSharp.Editor.csproj", "{C27CDA66-E2C3-0655-0660-C078CF0829EF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D61CD0EA-1DDE-E407-E52A-2EA7267A2235}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D61CD0EA-1DDE-E407-E52A-2EA7267A2235}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D61CD0EA-1DDE-E407-E52A-2EA7267A2235}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D61CD0EA-1DDE-E407-E52A-2EA7267A2235}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C069A8E-DD8D-5E11-CE3D-AC960F4F5A74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C069A8E-DD8D-5E11-CE3D-AC960F4F5A74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C069A8E-DD8D-5E11-CE3D-AC960F4F5A74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C069A8E-DD8D-5E11-CE3D-AC960F4F5A74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C41B6CA2-FDDA-E52B-C792-990FBEC4E083}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C41B6CA2-FDDA-E52B-C792-990FBEC4E083}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C41B6CA2-FDDA-E52B-C792-990FBEC4E083}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C41B6CA2-FDDA-E52B-C792-990FBEC4E083}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C27CDA66-E2C3-0655-0660-C078CF0829EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C27CDA66-E2C3-0655-0660-C078CF0829EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C27CDA66-E2C3-0655-0660-C078CF0829EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C27CDA66-E2C3-0655-0660-C078CF0829EF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
