@@ -10,6 +10,7 @@ public class GameManager : MonoBehaviour
 
     public static int deathcounter = 3;
     public int creatureValue;
+	public ScoreManagerScript scorePunch;
 
     void Start()
     {
@@ -58,8 +59,9 @@ public class GameManager : MonoBehaviour
             {
                 ScoreManagerScript.Score += creatureValue;
                 Destroy(gameObject);
-                var instance = new ScoreManagerScript();
-                instance.Switch();
+				//scorePunch.Switch ();
+				//iTween.PunchScale(Tens.gameObject, iTween.Hash("amount", new Vector3(0.2f, 0.2f, 0), "time", 1.7f, "easetype", iTween.EaseType.linear));
+
             }
             if (deathcounter == 0)
             {
@@ -69,3 +71,4 @@ public class GameManager : MonoBehaviour
         }
     }
 }
+
