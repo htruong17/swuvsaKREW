@@ -1,9 +1,9 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Raving Bots/Scripts/Water2D/Water2DEffects.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/SardineScript.cs">
     <Files>
-      <File FileName="Assets/Raving Bots/Scripts/Water2D/Water2DEffects.cs" Line="64" Column="2" />
-      <File FileName="Assets/Scripts/GameManager.cs" Line="60" Column="37" />
+      <File FileName="Assets/Scripts/GameManager.cs" Line="45" Column="9" />
+      <File FileName="Assets/Scripts/SardineScript.cs" Line="44" Column="4" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

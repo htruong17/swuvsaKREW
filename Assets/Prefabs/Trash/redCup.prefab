@@ -9,7 +9,6 @@ GameObject:
   m_Component:
   - 4: {fileID: 470502}
   - 212: {fileID: 21209688}
-  - 114: {fileID: 11497142}
   - 114: {fileID: 11422586}
   - 114: {fileID: 11433426}
   - 50: {fileID: 5099000}
@@ -143,19 +142,6 @@ MonoBehaviour:
   requireGestureToFail: {fileID: 0}
   friendlyGestures: []
   ignoreChildren: 0
---- !u!114 &11497142
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 153908}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d3d89087e60d8154b8a88b4359a1e601, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  direction: {x: 0, y: 0}
-  speed: 3
 --- !u!212 &21209688
 SpriteRenderer:
   m_ObjectHideFlags: 1

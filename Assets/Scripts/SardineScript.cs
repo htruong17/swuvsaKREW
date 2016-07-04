@@ -30,17 +30,18 @@ public class SardineScript : MonoBehaviour {
     }
     private void pressedHandler(object sender, System.EventArgs e)
     {
-        for (int i = 0; i < 3; i++)
-        {
-            var obj = Instantiate(sardine) as GameObject;
-            var minis = obj.transform;
-            minis.parent = transform.parent;
-            //minis.name = "Sardine";
-            minis.position = transform.TransformPoint(directions[i]);
-            minis.GetComponent<Rigidbody2D>().AddForce(Power * Random.insideUnitSphere, ForceMode2D.Impulse);
+		if (Time.timeScale == 1) {
+			for (int i = 0; i < 3; i++) {
+				var obj = Instantiate (sardine) as GameObject;
+				var minis = obj.transform;
+				minis.parent = transform.parent;
+				//minis.name = "Sardine";
+				minis.position = transform.TransformPoint (directions [i]);
+				minis.GetComponent<Rigidbody2D> ().AddForce (Power * Random.insideUnitSphere, ForceMode2D.Impulse);
            
-        }
-        Destroy(gameObject);
+			}
+			Destroy (gameObject);
+		}
     }
     
     // Update is called once per frame

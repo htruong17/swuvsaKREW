@@ -72,7 +72,6 @@
      <None Include="Assets\TouchScript\license.txt" />
      <None Include="Assets\TouchScript\Shaders\DebugMultiplyDepthTest.shader" />
      <None Include="Assets\Plugins\Android\unityads\res\drawable\unityads_background_button_pause.xml" />
-     <None Include="Assets\Scripts\Gradient.shader" />
      <None Include="Assets\TouchScript\Shaders\DebugNoDepthTest.shader" />
      <None Include="Assets\Plugins\Android\unityads\res\drawable\unityads_icon_speaker_triangle.xml" />
      <None Include="Assets\Plugins\Android\unityads\res\values\strings.xml" />
