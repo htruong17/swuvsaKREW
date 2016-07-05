@@ -2846,6 +2846,7 @@ MonoBehaviour:
   - {fileID: 153908, guid: c309960edbb83374caa5f84e4b099ec1, type: 2}
   - {fileID: 168610, guid: 2b1f8bde8c94fc64b96d719452b13dd3, type: 2}
   - {fileID: 168610, guid: b3dd184ae7386e646bee41fe9e8586c9, type: 2}
+  SpawnSize: 0a0000000a00000014000000320000000a000000
   timeMin: 0.6
   timeMax: 0.8
 --- !u!4 &1245287016
@@ -3771,7 +3772,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!33 &2144115163
 MeshFilter:
   m_ObjectHideFlags: 0

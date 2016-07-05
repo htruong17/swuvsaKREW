@@ -1,23 +1,33 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 
 public class Spawner : MonoBehaviour {
 
     private GameObject SpawnObject;
     public GameObject[] SpawnObjects;
+	public int[] SpawnSize;
     public float timeMin = 0.7f;
     public float timeMax = 2f;
+
+	private GameObject[] SpawnArray;
     
 	// Use this for initialization
 	void Start ()
     {
-        //SpawnObject = SpawnObjects[Random.Range(0, SpawnObjects.Length)];
-        Spawn();
+		List<GameObject> SpawnList = new List<GameObject>();
+		for (int i = 0; i < SpawnObjects.Length; i++) {
+			for (int objSize = 0; objSize < SpawnSize [i]; objSize++) {
+				SpawnList.Add(SpawnObjects [i]);
+			}
+		}
+		SpawnArray = SpawnList.ToArray ();
+		Spawn ();
 	}
 	
     void Spawn()
     {
-        SpawnObject = SpawnObjects[Random.Range(0, SpawnObjects.Length)];
+        SpawnObject = SpawnArray[Random.Range(0, SpawnArray.Length)];
 
         if (GameStateManager.GameState == GameState.Playing)
         {
