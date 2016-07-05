@@ -21,14 +21,14 @@ public class ScoreManagerScript : MonoBehaviour {
 	
     public void Switch ()
     {
-        iTween.PunchScale(gameObject, iTween.Hash("amount", new Vector3(0.2f, 0.2f, 0), "time", 1.7f, "easetype", iTween.EaseType.linear));
+       // iTween.PunchScale(gameObject, iTween.Hash("amount", new Vector3(0.2f, 0.2f, 0), "time", 1.7f, "easetype", iTween.EaseType.linear));
     }
     
 
 	// Update is called once per frame
 	void Update () {
 		if (Score != oldScore) {
-			iTween.PunchScale (gameObject, iTween.Hash ("amount", new Vector3 (1f, 1f, 0), "time", 0.2f, "easetype", iTween.EaseType.linear));
+			iTween.PunchScale (gameObject, iTween.Hash ("name","ComboAnim","amount", new Vector3 (1f, 1f, 0), "time", .2f, "easetype", iTween.EaseType.linear));
 			oldScore = Score;
 		}
 		if (previousScore != Score) { //save perf from non needed calculations
