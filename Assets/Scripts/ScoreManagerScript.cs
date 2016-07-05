@@ -28,7 +28,7 @@ public class ScoreManagerScript : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		if (Score != oldScore) {
-			iTween.PunchScale (gameObject, iTween.Hash ("amount", new Vector3 (1.0f, 1.0f, 0), "time", 0.2f, "easetype", iTween.EaseType.linear));
+			iTween.PunchScale (gameObject, iTween.Hash ("amount", new Vector3 (1f, 1f, 0), "time", 0.2f, "easetype", iTween.EaseType.linear));
 			oldScore = Score;
 		}
 		if (previousScore != Score) { //save perf from non needed calculations

@@ -46,7 +46,8 @@ public class GameManager : MonoBehaviour
         {
             if (tag == "Trash")
             {
-                Destroy(gameObject);
+				iTween.PunchScale (gameObject, iTween.Hash ("amount", new Vector3 (0.2f, 0.2f, 0), "time", 1.7f, "easetype", iTween.EaseType.linear));
+                Destroy(gameObject,0.1f);
                 deathcounter--;
             }
             else if (tag == "Life")
@@ -56,8 +57,9 @@ public class GameManager : MonoBehaviour
             }
             else
             {
+				iTween.PunchScale (gameObject, iTween.Hash ("amount", new Vector3 (0.2f, 0.2f, 0), "time", 1.7f, "easetype", iTween.EaseType.linear));
                 ScoreManagerScript.Score += creatureValue;
-                Destroy(gameObject);
+                Destroy(gameObject,0.1f);
             }
             if (deathcounter == 0)
             {
