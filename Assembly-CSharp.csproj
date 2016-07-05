@@ -49,6 +49,7 @@
      <Compile Include="Assets\Raving Bots\Scripts\Water2D\Water2DMaterialScaler.cs" />
      <Compile Include="Assets\Raving Bots\Scripts\Water2D\Water2DSplashFX.cs" />
      <Compile Include="Assets\Scripts\CloudTween.cs" />
+     <Compile Include="Assets\Scripts\CoinTween.cs" />
      <Compile Include="Assets\Scripts\GameManager.cs" />
      <Compile Include="Assets\Scripts\GameState.cs" />
      <Compile Include="Assets\Scripts\Lives.cs" />

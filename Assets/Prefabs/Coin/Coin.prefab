@@ -28,7 +28,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 134878}
   m_LocalRotation: {x: 0.7001644, y: 0, z: 0, w: 0.71398175}
-  m_LocalPosition: {x: -0.21654731, y: 0.2913375, z: -3.8043776}
+  m_LocalPosition: {x: -0.891184, y: -1.6792585, z: -3.8043776}
   m_LocalScale: {x: 0.7702127, y: 0.0125245955, z: 0.77021265}
   m_LocalEulerAnglesHint: {x: 88.8806, y: -720, z: -720}
   m_Children: []
@@ -44,7 +44,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_Materials:
-  - {fileID: 2100000, guid: 84c007f22e4aabc429135ad3d5bb991c, type: 2}
+  - {fileID: 2100000, guid: b8b577e7a772d834495feb82af5ba2cd, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 1
@@ -75,7 +75,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 134878}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a59de16351423d342bebf481bb46f851, type: 3}
+  m_Script: {fileID: 11500000, guid: a27c237277e5a5247b1704ecafb750ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!136 &13698358
