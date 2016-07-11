@@ -2908,7 +2908,7 @@ MonoBehaviour:
   - {fileID: 153908, guid: c309960edbb83374caa5f84e4b099ec1, type: 2}
   - {fileID: 168610, guid: 2b1f8bde8c94fc64b96d719452b13dd3, type: 2}
   - {fileID: 168610, guid: b3dd184ae7386e646bee41fe9e8586c9, type: 2}
-  SpawnSize: 0a0000000a00000014000000320000000a000000
+  SpawnSize: 0000000000000000000000006400000000000000
   timeMin: 0.6
   timeMax: 0.8
 --- !u!4 &1245287016
